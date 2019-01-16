@@ -191,7 +191,7 @@ html {
   box-sizing: inherit; }
 
 body {
-  background: white;
+  background: #F5F7FA;
   font-family: 'Open Sans', sans-serif;
   font-size: 14px;
   line-height: 1.6;
@@ -328,24 +328,38 @@ hr {
   margin: 10px 0 30px;
   height: 0; }
 
+#header-background {
+  background: white;
+  border-bottom: 1px solid rgba(112, 112, 112, 0.2); }
+
 .header-nav {
   display: flex;
   justify-content: space-between;
-  margin-top: 40px; }
+  margin-top: 10px; }
   .header-nav li {
     font-weight: 700;
     font-size: 20px;
-    list-style: none; }
+    list-style: none;
+    align-content: center; }
   .header-nav li:first-child {
-    font-size: 25px;
-    margin-left: -40px; }
+    font-size: 30px;
+    margin-left: -40px;
+    align-self: center; }
     .header-nav li:first-child a {
       color: #3A3747;
       padding: 0; }
+  .header-nav li:nth-child(2) {
+    font-size: 18px;
+    align-self: center;
+    position: relative;
+    right: -370px; }
+    .header-nav li:nth-child(2) a {
+      color: #3A3747; }
 
 #profile-picture {
   height: 50px;
-  border-radius: 50%; }
+  border-radius: 50%;
+  margin-top: 6px; }
 
 #cards {
   margin-top: 40px; }
@@ -363,7 +377,7 @@ hr {
   width: 250px;
   height: 155px;
   text-align: center;
-  border-radius: 14px;
+  border-radius: 12px;
   box-shadow: 0 5px 16px rgba(0, 0, 0, 0.1);
   background: white; }
   .card h3,

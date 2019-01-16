@@ -1,23 +1,40 @@
+#header-background
+    background: white
+    border-bottom: 1px solid rgba(112, 112, 112, 0.2)
+    
 .header-nav
     display: flex
     justify-content: space-between
-    margin-top: 40px
+    margin-top: 10px
     
     li
         font-weight: 700
         font-size: 20px
         list-style: none
+        align-content: center
 
     li:first-child
-        font-size: 25px
+        font-size: 30px
         margin-left: -40px
+        align-self: center
 
         a
             color: $title
             padding: 0
 
+    li:nth-child(2)
+        font-size: 18px
+        align-self: center
+
+        position: relative
+        right: -370px
+
+        a
+            color: $title
+
 #profile-picture
     height: 50px
     border-radius: 50%
+    margin-top: 6px
 
        
