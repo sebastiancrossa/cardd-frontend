@@ -336,35 +336,18 @@ hr {
   display: grid;
   grid-template-columns: repeat(2, auto); }
 
-.header {
-  display: flex;
-  justify-content: space-between;
-  margin-top: 10px; }
-  .header li {
-    font-weight: 700;
-    font-size: 20px;
-    list-style: none;
-    align-content: center; }
-  .header li:first-child {
-    font-size: 30px;
-    margin-left: -40px;
-    align-self: center; }
-    .header li:first-child a {
-      color: #3A3747;
-      padding: 0; }
-  .header li:nth-child(2) {
-    align-self: center;
-    margin-top: 10px;
-    margin-right: -83%; }
-    .header li:nth-child(2) a {
-      color: #3A3747; }
-  .header svg {
-    width: 20px;
-    height: 20px; }
+#header h3 {
+  font-size: 30px;
+  font-family: 'Open Sans', sans-serif;
+  color: #3A3747;
+  align-self: center; }
 
 #header-right {
-  justify-self: end; }
+  justify-self: end;
+  align-self: center; }
   #header-right svg {
+    margin-bottom: 10px;
+    margin: 0 20px 10px 0;
     width: 20px;
     height: 20px; }
   #header-right img {
