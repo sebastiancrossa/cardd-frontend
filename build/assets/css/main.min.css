@@ -337,6 +337,7 @@ hr {
   grid-template-columns: repeat(2, auto); }
 
 #header h3 {
+  margin: 25px 0;
   font-size: 30px;
   font-family: 'Open Sans', sans-serif;
   color: #3A3747;
