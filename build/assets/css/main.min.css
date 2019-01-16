@@ -349,12 +349,14 @@ hr {
       color: #3A3747;
       padding: 0; }
   .header-nav li:nth-child(2) {
-    font-size: 18px;
     align-self: center;
-    position: relative;
-    right: -370px; }
+    margin-top: 10px;
+    margin-right: -83%; }
     .header-nav li:nth-child(2) a {
       color: #3A3747; }
+  .header-nav svg {
+    width: 20px;
+    height: 20px; }
 
 #profile-picture {
   height: 50px;
@@ -367,6 +369,7 @@ hr {
 #wrapper-cards {
   display: grid;
   grid-template-columns: repeat(4, auto);
+  grid-gap: 20px;
   grid-row-gap: 40px; }
 
 .card {
