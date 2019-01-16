@@ -344,6 +344,7 @@ hr {
   align-self: center; }
 
 #header-right {
+  display: flex;
   justify-self: end;
   align-self: center; }
   #header-right svg {
@@ -354,6 +355,11 @@ hr {
   #header-right img {
     height: 50px;
     margin-top: 6px; }
+
+.search-container {
+  background: red;
+  align-self: center;
+  margin-right: 25px; }
 
 #cards {
   margin-top: 40px; }
