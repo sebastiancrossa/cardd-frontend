@@ -2,7 +2,11 @@
     background: white
     border-bottom: 1px solid rgba(112, 112, 112, 0.2)
     
-.header-nav
+#navbar-wrapper
+    display: grid
+    grid-template-columns: repeat(2, auto)
+
+.header
     display: flex
     justify-content: space-between
     margin-top: 10px
@@ -34,9 +38,14 @@
         width: 20px
         height: 20px
 
-#profile-picture
-    height: 50px
-    border-radius: 50%
-    margin-top: 6px
+#header-right
+    justify-self: end
 
+    svg
+        width: 20px
+        height: 20px
+
+    img
+        height: 50px
+        margin-top: 6px
        

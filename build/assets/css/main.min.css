@@ -332,36 +332,44 @@ hr {
   background: white;
   border-bottom: 1px solid rgba(112, 112, 112, 0.2); }
 
-.header-nav {
+#navbar-wrapper {
+  display: grid;
+  grid-template-columns: repeat(2, auto); }
+
+.header {
   display: flex;
   justify-content: space-between;
   margin-top: 10px; }
-  .header-nav li {
+  .header li {
     font-weight: 700;
     font-size: 20px;
     list-style: none;
     align-content: center; }
-  .header-nav li:first-child {
+  .header li:first-child {
     font-size: 30px;
     margin-left: -40px;
     align-self: center; }
-    .header-nav li:first-child a {
+    .header li:first-child a {
       color: #3A3747;
       padding: 0; }
-  .header-nav li:nth-child(2) {
+  .header li:nth-child(2) {
     align-self: center;
     margin-top: 10px;
     margin-right: -83%; }
-    .header-nav li:nth-child(2) a {
+    .header li:nth-child(2) a {
       color: #3A3747; }
-  .header-nav svg {
+  .header svg {
     width: 20px;
     height: 20px; }
 
-#profile-picture {
-  height: 50px;
-  border-radius: 50%;
-  margin-top: 6px; }
+#header-right {
+  justify-self: end; }
+  #header-right svg {
+    width: 20px;
+    height: 20px; }
+  #header-right img {
+    height: 50px;
+    margin-top: 6px; }
 
 #cards {
   margin-top: 40px; }
