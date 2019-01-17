@@ -347,19 +347,34 @@ hr {
   display: flex;
   justify-self: end;
   align-self: center; }
-  #header-right svg {
-    margin-bottom: 10px;
-    margin: 0 20px 10px 0;
-    width: 20px;
-    height: 20px; }
   #header-right img {
     height: 50px;
     margin-top: 6px; }
 
 .search-container {
-  background: red;
+  display: flex;
+  background: #F5F7FA;
   align-self: center;
-  margin-right: 25px; }
+  justify-self: center;
+  margin-right: 25px;
+  padding: 5px;
+  border-radius: 8px;
+  height: 40px; }
+  .search-container svg {
+    height: 16px;
+    width: 16px;
+    justify-self: center;
+    align-self: center;
+    margin: 2px 10px 2px 10px;
+    fill: rgba(75, 75, 75, 0.7); }
+
+#input-field {
+  background: none;
+  border: none;
+  color: rgba(75, 75, 75, 0.7); }
+
+#input-field::placeholder {
+  color: rgba(75, 75, 75, 0.35); }
 
 #cards {
   margin-top: 40px; }
