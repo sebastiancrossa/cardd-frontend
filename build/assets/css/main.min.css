@@ -386,3 +386,11 @@ hr {
   top: 0;
   width: 100%;
   left: 0; }
+
+#social-signin {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 100vh; }
