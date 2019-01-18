@@ -482,3 +482,29 @@ hr {
 .card_displayed {
   margin-right: 40px;
   margin-bottom: 20px; }
+
+#user-settings {
+  display: block;
+  margin-top: 50px; }
+  #user-settings h3 {
+    font-weight: lighter;
+    font-size: 32px;
+    margin-bottom: 30px; }
+
+.user-settings_input {
+  background: pink;
+  margin: 20px 0; }
+  .user-settings_input p {
+    font-size: 15px;
+    margin-bottom: 10px; }
+  .user-settings_input input {
+    border: none;
+    border-radius: 5px;
+    height: 35px;
+    width: 240px;
+    padding: 15px;
+    color: #3A3747; }
+
+.settings_button {
+  border: none;
+  padding: 25px; }
