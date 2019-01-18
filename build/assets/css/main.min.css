@@ -315,7 +315,7 @@ hr {
   justify-self: center;
   border-radius: 8px;
   border: none;
-  background: #8E94F2;
+  background-image: linear-gradient(120deg, #8e2de2, #4a00e0);
   height: 40px;
   width: 120px; }
   .signin p {
@@ -438,6 +438,10 @@ hr {
 
 #signin-google {
   background: #db3236; }
+
+#footer {
+  position: fixed;
+  bottom: 5px; }
 
 .background-card {
   position: absolute;
