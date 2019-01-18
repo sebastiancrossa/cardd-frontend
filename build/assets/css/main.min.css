@@ -434,7 +434,8 @@ hr {
 
 .profile {
   display: grid;
-  grid-template-columns: 28% 72%; }
+  grid-template-columns: 28% 72%;
+  height: 100vh; }
 
 #profile_info {
   background: white;
@@ -443,6 +444,7 @@ hr {
   border-radius: 8px;
   box-shadow: 0 5px 16px rgba(0, 0, 0, 0.1);
   display: block;
+  max-height: 380px;
   text-align: center; }
   #profile_info h3,
   #profile_info h4,
@@ -470,4 +472,12 @@ hr {
 
 #profile_cards {
   align-content: space-between;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  grid-row-gap: 10px;
   margin: 50px 20px; }
+
+.card_displayed {
+  margin-right: 40px;
+  margin-bottom: 20px; }
