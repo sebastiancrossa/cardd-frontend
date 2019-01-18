@@ -209,11 +209,8 @@ section {
   display: -webkit-box; }
 
 a {
-  color: #0074D9;
   text-decoration: none;
   outline: 0; }
-  a:hover, a:focus {
-    color: #F012BE; }
 
 ::selection {
   background: #FFF498; }
@@ -393,4 +390,102 @@ hr {
   justify-content: center;
   align-items: center;
   text-align: center;
-  min-height: 100vh; }
+  min-height: 100vh;
+  position: relative;
+  overflow: hidden; }
+  #social-signin h1 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 70px;
+    color: #3A3747;
+    margin: 0;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none; }
+
+.dots {
+  height: 8px;
+  width: 8px;
+  border-radius: 50%;
+  display: inline-block;
+  background: #D9DBE5;
+  margin: 30px 0 20px 0; }
+
+.dot-margin {
+  margin-right: 15px; }
+
+#signin-buttons {
+  display: grid;
+  grid-template-rows: repeat(2, auto); }
+
+.signin-button {
+  height: auto;
+  width: 200px;
+  border-radius: 8px;
+  margin: 10px auto;
+  padding: 12px 0;
+  color: white;
+  font-size: 14px;
+  text-align: center;
+  vertical-align: center; }
+
+#signin-twitter {
+  background: #38A1F3; }
+
+#signin-google {
+  background: #db3236; }
+
+.background-card {
+  position: absolute;
+  z-index: -1;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none; }
+
+#background-card1 {
+  left: -20px;
+  bottom: -40px;
+  -webkit-filter: blur(5px);
+  -moz-filter: blur(5px);
+  -o-filter: blur(5px);
+  -ms-filter: blur(5px);
+  filter: blur(5px); }
+
+#background-card2 {
+  top: 250px; }
+
+#background-card3 {
+  right: 50px;
+  top: 400px; }
+
+#background-card4 {
+  right: 80px;
+  top: -50px;
+  -webkit-filter: blur(5px);
+  -moz-filter: blur(5px);
+  -o-filter: blur(5px);
+  -ms-filter: blur(5px);
+  filter: blur(5px);
+  transform: scale(0.8); }
+
+#background-card5 {
+  top: -40px;
+  left: 450px;
+  transform: scale(0.9); }
+
+#background-card6 {
+  top: 40px;
+  left: -150px;
+  -webkit-filter: blur(5px);
+  -moz-filter: blur(5px);
+  -o-filter: blur(5px);
+  -ms-filter: blur(5px);
+  filter: blur(5px); }
