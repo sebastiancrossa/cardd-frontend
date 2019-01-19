@@ -414,12 +414,16 @@ hr {
 #cards-add_card {
   box-shadow: none;
   background: none;
-  border: 4px solid #D9DBE5; }
+  border: 4px dashed #D9DBE5;
+  transition: transform .3s ease; }
   #cards-add_card svg {
     width: 25px;
     height: 25px;
     justify-self: center;
     align-self: center; }
+
+#cards-add_card:hover {
+  transform: scale(1.04); }
 
 .flex-video {
   height: 0;

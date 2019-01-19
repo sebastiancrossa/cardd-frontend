@@ -49,12 +49,18 @@
 #cards-add_card
     box-shadow: none
     background: none
-    border: 4px solid $border
+    border: 4px dashed $border
+    transition: transform .3s ease
 
     svg
         width: 25px
         height: 25px
         justify-self: center
         align-self: center
+        //transition: transform .3s ease
+
+
+#cards-add_card:hover
+    transform: scale(1.04)
     
         
