@@ -537,7 +537,12 @@ user-settings {
   text-transform: uppercase; }
 
 #user-setting_input_email {
-  margin-bottom: 50px; }
+  margin-bottom: 50px;
+  user-select: none;
+  -moz-user-select: none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+  -o-user-select: none; }
 
 #button_delete-cards,
 #button_delete-account {
