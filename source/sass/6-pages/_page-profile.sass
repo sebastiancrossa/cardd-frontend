@@ -1,3 +1,4 @@
+// MARK : PAGE PROFILE
 #settings-button
     img
         width: 30px
@@ -7,6 +8,7 @@
     display: grid
     grid-template-columns: 28% 72%
     height: 100vh
+    //position: absolute
 
 #profile_info
     background: white
@@ -51,14 +53,39 @@
 
 #profile_cards
     align-content: space-between
-    
+
     display: flex
     flex-wrap: wrap
     align-content: flex-start
     grid-row-gap: 10px
     margin: 50px 20px
 
+.card-text
+    position: relative
+
 .card_displayed
     margin-right: 40px
-    margin-bottom: 20px
+    margin-bottom: 30px
+    transition: transform .3s ease
+
+.card_displayed:hover
+    transform: scale(1.05)
+
+    .card-delete_button
+        opacity: 1
     
+.card-delete_button
+    position: absolute
+    top: -53px
+    right: -63px
+
+    opacity: 0
+    color: white
+    background: #F64740
+    padding: 0px 8px 2px 8px
+    border-radius: 50%
+    transition: opacity .3s ease
+
+    svg
+        height: 7px
+        width: 7px

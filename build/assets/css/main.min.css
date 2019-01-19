@@ -245,11 +245,8 @@ input[type="button"] {
     transform: translateY(3px); }
 
 a {
-  color: #0074D9;
   text-decoration: none;
   outline: 0; }
-  a:hover, a:focus {
-    color: #F012BE; }
 
 ::selection {
   background: #FFF498; }
@@ -479,14 +476,37 @@ hr {
   grid-row-gap: 10px;
   margin: 50px 20px; }
 
+.card-text {
+  position: relative; }
+
 .card_displayed {
   margin-right: 40px;
-  margin-bottom: 20px; }
+  margin-bottom: 30px;
+  transition: transform .3s ease; }
 
-#user-settings {
+.card_displayed:hover {
+  transform: scale(1.05); }
+  .card_displayed:hover .card-delete_button {
+    opacity: 1; }
+
+.card-delete_button {
+  position: absolute;
+  top: -53px;
+  right: -63px;
+  opacity: 0;
+  color: white;
+  background: #F64740;
+  padding: 0px 8px 2px 8px;
+  border-radius: 50%;
+  transition: opacity .3s ease; }
+  .card-delete_button svg {
+    height: 7px;
+    width: 7px; }
+
+user-settings {
   display: block;
   margin-top: 50px; }
-  #user-settings h3 {
+  user-settings h3 {
     font-weight: lighter;
     font-size: 32px;
     margin-bottom: 30px; }
