@@ -425,9 +425,11 @@ hr {
   width: 100%;
   left: 0; }
 
-#settings-button img {
-  width: 30px;
-  height: 30px; }
+#settings-button {
+  margin-left: 20px; }
+  #settings-button img {
+    width: 30px;
+    height: 30px; }
 
 .profile {
   display: grid;
