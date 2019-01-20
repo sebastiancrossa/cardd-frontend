@@ -1,7 +1,10 @@
 .modal
     background: pink
 
-    //display: none
+    visibility: hidden
+    opacity: 0
+
+    display: block
     position: fixed
     z-index: 1
     left: 0
@@ -10,6 +13,8 @@
     height: 100vh
     overflow: auto
 
+    //transition: visibility .3s ease+
+    transition: visibility 0s, opacity 0.3s ease
     background-color: rgba(0,0,0,0.15)
 
 .modal-content
@@ -17,13 +22,13 @@
     padding: 20px
     background: white
     width: 400px
-    height: 564px
+    height: 544px
     border-radius: 20px
     box-shadow: 0 40px 80px rgba(70, 72, 85, 0.1)
 
     h1
         font-family: 'Open Sans', sans-serif
-        font-size: 20px
+        font-size: 22px
         font-weight: lighter
 
         text-align: center
@@ -50,16 +55,16 @@
 
 #modal_create-card
     margin-top: 40px
-    padding: 9px
+    padding: 14px
 
     justify-self: center
-    height: 40px
+    height: 50px
     width: 80%
     text-align: center
     border-radius: 10px
 
     color: white
-    background: purple
+    background: linear-gradient(120deg, #8e2de2, #4a00e0)
 
 .close_button
     color: #aaa
