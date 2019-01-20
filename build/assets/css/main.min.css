@@ -391,7 +391,7 @@ hr {
   height: 155px;
   text-align: center;
   border-radius: 12px;
-  box-shadow: 0 5px 16px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 5px 30px rgba(0, 0, 0, 0.1);
   background: white; }
   .card h3,
   .card h4,
@@ -424,6 +424,71 @@ hr {
 
 #cards-add_card:hover {
   transform: scale(1.04); }
+
+.modal {
+  background: pink;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100vh;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.15); }
+
+.modal-content {
+  margin: 5% auto;
+  padding: 20px;
+  background: white;
+  width: 400px;
+  height: 564px;
+  border-radius: 20px;
+  box-shadow: 0 40px 80px rgba(70, 72, 85, 0.1); }
+  .modal-content h1 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-weight: lighter;
+    text-align: center;
+    margin: 40px 0 20px 0; }
+
+#modal_inputs {
+  display: grid;
+  grid-template-columns: auto; }
+  #modal_inputs input {
+    color: #3A3747;
+    justify-self: center;
+    height: 40px;
+    width: 80%;
+    padding: 20px;
+    border: 1px solid #F4F5FA;
+    border-radius: 10px;
+    margin: 10px; }
+  #modal_inputs input::placeholder {
+    color: #D9DBE5; }
+
+#modal_create-card {
+  margin-top: 40px;
+  padding: 9px;
+  justify-self: center;
+  height: 40px;
+  width: 80%;
+  text-align: center;
+  border-radius: 10px;
+  color: white;
+  background: purple; }
+
+.close_button {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+  margin: 0;
+  width: 40px;
+  height: 40px; }
+
+.close_button:hover,
+.close_button:focus {
+  cursor: pointer; }
 
 .flex-video {
   height: 0;
