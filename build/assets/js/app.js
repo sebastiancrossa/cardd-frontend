@@ -6,18 +6,18 @@ var span = document.getElementsByClassName('close_button')[0];
 
 // ACTIONS
 button.onclick = function() {
-    modal.style.visibility = "visible";
-    modal.style.opacity = 1;
+    modal.classList.add('animation-fadein');
+    modal.classList.remove('animation-fadeout');
 }
 
 span.onclick = function() {
-    modal.style.visibility = "hidden";
-    modal.style.opacity = 1;
-  }
+    modal.classList.add('animation-fadeout');
+    modal.classList.remove('animation-fadein');
+}
   
 window.onclick = function(event) {
     if (event.target == modal) {
-        modal.style.visibility = "hidden";
-        modal.style.opacity = 1;
+        modal.classList.add('animation-fadeout');
+        modal.classList.remove('animation-fadein');
     }
 }

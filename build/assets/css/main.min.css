@@ -493,6 +493,30 @@ hr {
 .close_button:hover {
   cursor: pointer; }
 
+.animation-fadein {
+  animation: fade-in-animation 0.2s linear;
+  animation-fill-mode: forwards; }
+
+.animation-fadeout {
+  animation: fade-out-animation 0.2s linear;
+  animation-fill-mode: forwards; }
+
+@keyframes fade-in-animation {
+  0% {
+    visibility: hidden;
+    opacity: 0; }
+  100% {
+    visibility: visible;
+    opacity: 1; } }
+
+@keyframes fade-out-animation {
+  0% {
+    visibility: visible;
+    opacity: 1; }
+  100% {
+    visibility: hidden;
+    opacity: 0; } }
+
 .flex-video {
   height: 0;
   margin-bottom: 0.88889rem;
