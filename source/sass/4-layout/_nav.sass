@@ -54,3 +54,38 @@
 #input-field::placeholder
     color: rgba(75, 75, 75, 0.35)
 
+// Drop down
+.dropdown
+    position: relative
+    display: inline-block
+
+.dropdown_clickable
+    position: relative
+
+.dropdown-content
+    display: none
+    position: absolute
+    background-color: white
+    min-width: 100px
+    //box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2)
+    box-shadow: 0 5px 60px rgba(0, 0, 0, 0.2)
+    z-index: 1
+    border-radius: 0px 5px 5px 5px
+
+    a
+        color: $title
+        padding: 12px 16px
+        display: block
+
+.drop-button
+    position: absolute
+    display: inline-block
+    height: 50px
+    opacity: 0
+    width: 50px
+    margin-top: 6px
+    border-radius: 50%
+    background: pink
+
+.show
+    display: block 
