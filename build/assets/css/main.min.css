@@ -407,6 +407,10 @@ hr {
     -o-user-select: none;
     user-select: none; }
 
+.logo {
+  width: 170px;
+  margin-bottom: 20px; }
+
 .dots {
   height: 8px;
   width: 8px;
