@@ -22,7 +22,7 @@
     padding: 20px
     background: white
     width: 400px
-    height: 544px
+    height: 580px
     border-radius: 20px
     box-shadow: 0 40px 80px rgba(70, 72, 85, 0.1)
 
@@ -78,3 +78,61 @@
 .close_button:hover,
 .close_button:focus 
   cursor: pointer
+
+#radio-buttons
+    margin-top: 15px
+    padding: 0 40px
+
+    input
+        display: none
+
+    label 
+        font-family: 'Open Sans', sans-serif
+        cursor: pointer
+        position: relative
+        display: block
+        font-size: 16px
+        color: $title
+
+
+input[type="checkbox"]:checked
+    &:after 
+      right: 0px
+      background: #FF9800
+
+input[type="checkbox"] 
+    position: absolute
+    visibility: hidden !important
+  
+input[type="checkbox"]:checked + label
+    &:after
+      right: 0px
+      background: linear-gradient(120deg, #8e2de2, #4a00e0)
+    
+
+input[type="checkbox"] + label
+    &:before,
+    &:after 
+      content: ''
+      position: absolute
+      top: 50%
+      margin-top: -7.5px
+      box-sizing: border-box
+    
+
+    &:before 
+      width: 30px
+      height: 15px
+      right: 0px;
+      background: #fff
+      border: 1px solid #e4e3e1
+      border-radius: 15px
+    
+
+    &:after
+      width: 15px
+      height: 15px
+      right: 15px
+      background: #BDBDBD
+      border-radius: 50%
+      transition: all 200ms ease-out    
