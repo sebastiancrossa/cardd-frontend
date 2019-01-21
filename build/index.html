@@ -54,13 +54,17 @@
           </div>
 
           <div class="dropdown">
-            <a class="drop-button" id="profile-picture"><img src="assets/img/profile-pic-cropped.png" alt="User profile pic"></a>
-            <div class="dropdown-content">
-              <a href="#">Profile</a>
-              <a href="#">Settings</a>
+            <a href="javascript:void(0);" class="drop-button" onclick="displayDropdown()">
+                <img src="assets/img/profile-pic-cropped.png" alt="User profile pic">
+            </a>
+            <div class="dropdown-content" id="myDropdown">
+              <a href="profile.html">Profile</a>
+              <a href="settings.html">Settings</a>
               <a href="#">Logout</a>
             </div>
           </div>
+
+          
         </div>
       </div>
     </section>
