@@ -333,21 +333,12 @@ hr {
   display: grid;
   grid-template-columns: repeat(2, auto); }
 
-#header .logo {
-  width: 40px;
-  margin: 0;
-  align-self: center;
-  margin: 5px 10px; }
-
 #header #title {
   margin: 25px 0;
   font-size: 30px;
   font-family: 'Open Sans', sans-serif;
   color: #3A3747;
   align-self: center; }
-
-#header-left {
-  margin: 20px; }
 
 #header-right {
   display: flex;
