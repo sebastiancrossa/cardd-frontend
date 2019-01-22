@@ -52,7 +52,17 @@
     
                     <input id="input-field" type="text" placeholder="Search...">
                 </div>
-                <a href="settings.html" id="settings-button"><img src="assets/img/settings-work-tool (1).svg" alt="Settings button"></a>
+                <div class="dropdown">
+                    <div class="dropdown_clickable">
+                        <a href="javascript:void(0);" class="drop-button" onclick="displayDropdown()"></a>
+                        <img src="assets/img/profile-pic-cropped.png" alt="User profile pic">
+                    </div>
+                    <div class="dropdown-content" id="myDropdown">
+                        <a href="profile.html">Profile</a>
+                        <a href="settings.html">Settings</a>
+                        <a href="#">Logout</a>
+                    </div>
+                </div>
             </div>
             </div>
         </section>
