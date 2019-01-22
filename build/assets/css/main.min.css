@@ -640,10 +640,17 @@ input[type="checkbox"] + label:after {
     height: 7px;
     width: 7px; }
 
-user-settings {
+#user-settings {
   display: block;
-  margin-top: 50px; }
-  user-settings h3 {
+  margin-top: 50px;
+  background: white;
+  border-radius: 8px;
+  width: 50%;
+  justify-content: center;
+  margin: 40px auto 0 auto;
+  padding: 10px;
+  box-shadow: 0 5px 30px rgba(0, 0, 0, 0.1); }
+  #user-settings h3 {
     font-weight: lighter;
     font-size: 32px;
     margin-bottom: 30px; }
@@ -654,7 +661,7 @@ user-settings {
     font-size: 15px;
     margin-bottom: 10px; }
   .user-settings_input input {
-    border: none;
+    border: 1px solid #D9DBE5;
     border-radius: 5px;
     height: 35px;
     width: 240px;
@@ -662,7 +669,7 @@ user-settings {
     color: #3A3747; }
 
 .user-settings_buttons {
-  margin-top: 185px; }
+  margin: 50px 0 40px 0; }
   .user-settings_buttons a {
     color: white;
     border-radius: 8px; }

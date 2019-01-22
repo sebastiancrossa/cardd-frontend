@@ -28,7 +28,7 @@ function displayDropdown() {
     document.getElementById("myDropdown").classList.toggle('show');
 }
 
-window.onclick = function(event) {
+document.onclick = function(event) {
     if (!event.target.matches('.drop-button')) {
       var dropdowns = document.getElementsByClassName("dropdown-content");
       var i;
